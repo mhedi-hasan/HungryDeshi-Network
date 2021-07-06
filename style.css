@@ -13,6 +13,8 @@ section
 {
     padding-bottom: 80px;
 }
+
+/******************** Intro Section  ************/
 #intro
 {
     background-image: url(images/shapes/Inkedtop-banner_LI.jpg);
@@ -69,7 +71,7 @@ p
     display:flex;
 }
 
-/**************/
+/************** About Us Section *************/
 .headline
 {
     color: #6f6f6f;
@@ -110,7 +112,7 @@ p
 {
     text-align: justify;
 }
-/*************/
+/************ Recipies Section ******/
 .width_50_auto
 {
     width:50%;
@@ -125,7 +127,7 @@ p
     line-height: normal;
 }
 
-/*************/
+/******* Card For Recipies, Testmonial ******/
 .card 
 {
     box-shadow: 8px 8px 30px gray;
@@ -145,7 +147,7 @@ p
     width:80%;
     margin: 0 auto;
 }
-/************/
+/******** Testimonial Section ******/
 .border_testimonial
 {
     border-left: 5px solid;
@@ -154,7 +156,21 @@ p
     border-radius: 0px 20px 20px 0px;
 }
 
-/***********************/
+/********** Newsletter Section **********/
+.newsletter-button
+{
+    background-image: linear-gradient(120deg,LightSalmon,tomato);
+    padding: 8px 12px;
+    border-radius: 100px;
+    box-shadow: 2px 5px 10px #fc8f4980;
+}
+
+#testimonial_signup
+{
+    text-align: center;
+}
+
+/******* Footer Section *********/
 .text_green
 {
     color: greenyellow;
