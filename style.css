@@ -16,6 +16,7 @@ body
 .section-p-text
 {
     color: rgb(130,130,130);
+    padding-bottom: 50px;
 }
 
 .linkText
