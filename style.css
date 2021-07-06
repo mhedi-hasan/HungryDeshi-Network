@@ -147,4 +147,20 @@ p
 }
 
 /***********************/
+.text_green
+{
+    color: greenyellow;
+}
+.text_transparent
+{
+    color: gray;
+}
+footer{
+    background-color: #0B0D17;
+    padding: 20px;
+    text-align: center;
+}
 
+footer p{
+    color: #ddd;
+}
