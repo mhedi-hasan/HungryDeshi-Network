@@ -9,7 +9,10 @@ body
     max-width: 1150px;
     margin: auto;
 }
-
+section
+{
+    padding-bottom: 80px;
+}
 #intro
 {
     background-image: url(images/shapes/Inkedtop-banner_LI.jpg);
@@ -32,7 +35,7 @@ body
 p
 {
     color: rgb(130,130,130);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .intro_heading
 {
@@ -65,5 +68,48 @@ p
 {
     display:flex;
 }
+
+/**************/
+.headline
+{
+    color: #6f6f6f;
+    font-size: 35px;
+}
+.contact-button
+{
+    background-image: linear-gradient(120deg,LightSalmon,tomato);
+    padding: 8px 12px;
+    border-radius: 100px;
+    box-shadow: 2px 5px 10px #fc8f4980;
+}
+#about
+{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#left_bar_about img
+{
+    padding-top: 30px;
+    max-width: 80%;
+    min-width: 65%;
+}
+
+#right_bar_about
+{
+    padding-right: 200px;
+}
+
+.align_center
+{
+    text-align: center;
+}
+
+.justify_text
+{
+    text-align: justify;
+}
+/*************/
 
 
