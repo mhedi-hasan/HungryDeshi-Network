@@ -4,21 +4,41 @@ body
     margin: 0;
 }
 
-.section-skip-heading
+.container
 {
-    color: #575757;
-    font-size: 35px;
+    max-width: 1150px;
+    margin: auto;
 }
-.textOrange
+
+#intro
+{
+    background-image: url(images/shapes/Inkedtop-banner_LI.jpg);
+    background-repeat: no-repeat;
+}
+
+#left_bar_intro
+{
+    margin-top: 60px;
+}
+
+.text_orange
 {
     color:#FC9149;
 }
-.section-p-text
+.text_green
+{
+    color: MediumSeaGreen;
+}
+p
 {
     color: rgb(130,130,130);
     padding-bottom: 50px;
 }
-
+.intro_heading
+{
+    color: #575757;
+    font-size: 35px;
+}
 .linkText
 {
     text-decoration: none;
@@ -32,12 +52,6 @@ body
     border-radius: 100px;
     box-shadow: 2px 5px 10px #fc8f4980;
 }
-
-.flex-section
-{
-    display:flex;
-}
-
 .half-width
 {
     width: 40%;
@@ -46,17 +60,10 @@ body
 .half-width img
 {
     width: 80%;
-    margin-top: 30px;
+}
+.flex-div
+{
+    display:flex;
 }
 
-.skip-background
-{
-    background-image: url(images/shapes/Inkedtop-banner_LI.jpg);
-    background-repeat: no-repeat;
-}
-
-#skip
-{
-    margin-top: 60px;
-}
 
