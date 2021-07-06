@@ -145,6 +145,14 @@ p
     width:80%;
     margin: 0 auto;
 }
+/************/
+.border_testimonial
+{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue,orange);
+    border-image-slice: 1;
+    border-radius: 0px 20px 20px 0px;
+}
 
 /***********************/
 .text_green
