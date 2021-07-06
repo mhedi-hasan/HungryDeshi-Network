@@ -111,5 +111,40 @@ p
     text-align: justify;
 }
 /*************/
+.width_50_auto
+{
+    width:50%;
+    margin: 0 auto;
+}
 
+.my_recipies_p
+{
+    color: #252525;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+/*************/
+.card 
+{
+    box-shadow: 8px 8px 30px gray;
+    border-radius: 20px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 2% 8% 2% 4%;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.width_80_auto
+{
+    width:80%;
+    margin: 0 auto;
+}
+
+/***********************/
 
