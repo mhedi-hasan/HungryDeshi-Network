@@ -157,12 +157,25 @@ p
 }
 
 /********** Newsletter Section **********/
+.inpits{
+    height: 30px;
+    width: 186px;
+    background-color: #fbf0f0;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 5%;
+    /* color: black; */
+}
 .newsletter-button
 {
     background-image: linear-gradient(120deg,LightSalmon,tomato);
-    padding: 8px 12px;
-    border-radius: 100px;
+    /* padding: 8px 12px; */
+    border-radius: 50px;
     box-shadow: 2px 5px 10px #fc8f4980;
+    height: 40px;
+    width: 110px;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 #testimonial_signup
